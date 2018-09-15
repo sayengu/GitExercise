@@ -12,6 +12,11 @@ public class First {
         System.out.println("Hello merge!");
         System.out.println("Does the commit message disappear?");
 
+        System.out.println("git rebase!");
+        for (int i = 0; i < 10; i++) {
+            System.out.println("now i=" + i);
+        }
+
         int a = 1;
         int b = 2;
         try {
@@ -20,6 +25,5 @@ public class First {
             e.printStackTrace();
         }
 
-        System.out.println("Hello change!");
     }
 }
